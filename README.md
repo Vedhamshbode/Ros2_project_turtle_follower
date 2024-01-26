@@ -29,4 +29,4 @@ This ROS 2 package includes a launch file and a node that allows you to control 
 To launch the turtle follower along with the turtlesim node, use the provided launch file:
 
 ```bash
-ros2 launch your_package_name turtle_follower_launch.py
+ros2 launch t_follower_pkg t_follower_launch.py
