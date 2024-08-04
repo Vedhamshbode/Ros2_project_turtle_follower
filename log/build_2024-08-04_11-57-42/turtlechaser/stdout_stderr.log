@@ -1,0 +1,43 @@
+/home/vedh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/turtlechaser/turtlechaser.egg-info
+writing ../../build/turtlechaser/turtlechaser.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlechaser/turtlechaser.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlechaser/turtlechaser.egg-info/entry_points.txt
+writing requirements to ../../build/turtlechaser/turtlechaser.egg-info/requires.txt
+writing top-level names to ../../build/turtlechaser/turtlechaser.egg-info/top_level.txt
+writing manifest file '../../build/turtlechaser/turtlechaser.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlechaser/turtlechaser.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/turtlechaser/turtlechaser.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser
+copying turtlechaser/controller.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser
+copying turtlechaser/__init__.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser
+copying turtlechaser/spawner.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser
+running install
+running install_lib
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser
+copying /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser/controller.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser
+copying /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser/__init__.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser
+copying /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build/lib/turtlechaser/spawner.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser
+byte-compiling /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser/controller.py to controller.cpython-310.pyc
+byte-compiling /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser/spawner.py to spawner.cpython-310.pyc
+running install_data
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/ament_index
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/ament_index/resource_index
+creating /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/ament_index/resource_index/packages
+copying resource/turtlechaser -> /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/ament_index/resource_index/packages
+copying package.xml -> /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser
+copying launch/turtlechaser.launch.py -> /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser
+running install_egg_info
+Copying ../../build/turtlechaser/turtlechaser.egg-info to /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages/turtlechaser-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chaser script to /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/turtlechaser
+Installing spawner script to /home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/turtlechaser
+writing list of installed files to '/home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/install.log'

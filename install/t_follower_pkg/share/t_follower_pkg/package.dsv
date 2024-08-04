@@ -1,0 +1,8 @@
+source;share/t_follower_pkg/hook/cmake_prefix_path.ps1
+source;share/t_follower_pkg/hook/cmake_prefix_path.dsv
+source;share/t_follower_pkg/hook/cmake_prefix_path.sh
+source;share/t_follower_pkg/local_setup.bash
+source;share/t_follower_pkg/local_setup.dsv
+source;share/t_follower_pkg/local_setup.ps1
+source;share/t_follower_pkg/local_setup.sh
+source;share/t_follower_pkg/local_setup.zsh

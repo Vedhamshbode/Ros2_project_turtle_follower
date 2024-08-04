@@ -1,0 +1,64 @@
+[0.019s] Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake /home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.253s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.506s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.661s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.669s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.680s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.793s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.907s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.932s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.986s] -- Looking for pthread.h
+[1.057s] -- Looking for pthread.h - found
+[1.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.171s] -- Found Threads: TRUE  
+[1.286s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.376s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.447s] -- Configuring done
+[1.453s] -- Generating done
+[1.454s] -- Build files have been written to: /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg
+[1.461s] Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake /home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg
+[1.462s] Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg -- -j16 -l16
+[1.526s] [ 50%] [32mBuilding CXX object CMakeFiles/t_follower_sub.dir/src/t_follower.cpp.o[0m
+[6.468s] [100%] [32m[1mLinking CXX executable t_follower_sub[0m
+[6.714s] [100%] Built target t_follower_sub
+[6.725s] Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg -- -j16 -l16
+[6.804s] Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg
+[6.812s] -- Install configuration: ""
+[6.812s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib/t_follower_pkg/t_follower_sub
+[6.814s] -- Set runtime path of "/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib/t_follower_pkg/t_follower_sub" to ""
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/launch
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/launch/t_follower_launch.py
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/ament_index/resource_index/package_run_dependencies/t_follower_pkg
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/ament_index/resource_index/parent_prefix_path/t_follower_pkg
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/environment/ament_prefix_path.sh
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/environment/ament_prefix_path.dsv
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/environment/path.sh
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/environment/path.dsv
+[6.814s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/local_setup.bash
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/local_setup.sh
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/local_setup.zsh
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/local_setup.dsv
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.dsv
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/ament_index/resource_index/packages/t_follower_pkg
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/cmake/t_follower_pkgConfig.cmake
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/cmake/t_follower_pkgConfig-version.cmake
+[6.815s] -- Installing: /home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.xml
+[6.816s] Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg

@@ -1,0 +1,3 @@
+[console_scripts]
+chaser = turtlechaser.controller:main
+spawner = turtlechaser.spawner:main

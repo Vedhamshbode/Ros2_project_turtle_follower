@@ -1,0 +1,202 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.068s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f55374335b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5537574310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5537574310>>)
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.093s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vedh/workspaces/Ros2_project_turtle_follower'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/t_follower_pkg) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/t_follower_pkg' with type 'ros.ament_cmake' and name 't_follower_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlechaser-main) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlechaser-main' with type 'ros.ament_python' and name 'turtlechaser'
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.119s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vedh/workspaces/Ros2_project_turtle_follower/install/catcher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.120s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.120s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vedh/workspaces/Ros2_project_turtle_follower/install/catcher' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.120s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/vedh/workspaces/Ros2_project_turtle_follower/install
+[0.121s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 56 installed packages in /home/vedh/control_ws/install
+[0.122s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vedh/workspaces/articulated_ws/install
+[0.122s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vedh/workspaces/agvrobot_ws/install
+[0.122s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vedh/workspaces/demo_lawd_ws/install
+[0.123s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 418 installed packages in /opt/ros/humble
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 't_follower_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 't_follower_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg', 'merge_install': False, 'path': '/home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'turtlechaser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'turtlechaser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser', 'merge_install': False, 'path': '/home/vedh/workspaces/Ros2_project_turtle_follower/src/turtlechaser-main', 'symlink_install': False, 'test_result_base': None}
+[0.158s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg' with build type 'ament_cmake'
+[0.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg'
+[0.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vedh/workspaces/Ros2_project_turtle_follower/src/turtlechaser-main' with build type 'ament_python'
+[0.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlechaser', 'ament_prefix_path')
+[0.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/hook/ament_prefix_path.ps1'
+[0.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/hook/ament_prefix_path.dsv'
+[0.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/hook/ament_prefix_path.sh'
+[0.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake /home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg
+[0.317s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vedh/workspaces/Ros2_project_turtle_follower/src/turtlechaser-main'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/src/turtlechaser-main': PYTHONPATH=/home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlechaser build --build-base /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build install --record /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/install.log --single-version-externally-managed install_data
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/src/turtlechaser-main' returned '0': PYTHONPATH=/home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlechaser build --build-base /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/build install --record /home/vedh/workspaces/Ros2_project_turtle_follower/build/turtlechaser/install.log --single-version-externally-managed install_data
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser' for CMake module files
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser' for CMake config files
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/bin'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/pkgconfig/turtlechaser.pc'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/lib/python3.10/site-packages'
+[1.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlechaser', 'pythonpath')
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/hook/pythonpath.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/hook/pythonpath.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/hook/pythonpath.sh'
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/bin'
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlechaser)
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/package.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/package.sh'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/package.bash'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/turtlechaser/package.zsh'
+[1.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser/share/colcon-core/packages/turtlechaser)
+[1.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake /home/vedh/workspaces/Ros2_project_turtle_follower/src/t_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg
+[1.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg -- -j16 -l16
+[6.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --build /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg -- -j16 -l16
+[6.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg
+[6.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(t_follower_pkg)
+[6.975s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg' for CMake module files
+[6.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vedh/workspaces/Ros2_project_turtle_follower/install/turtlechaser:/home/vedh/workspaces/agvrobot_ws/install/agvrobot_description:/home/vedh/control_ws/install/rqt_joint_trajectory_controller:/home/vedh/control_ws/install/rqt_controller_manager:/home/vedh/control_ws/install/ros2controlcli:/home/vedh/control_ws/install/ros2_controllers_test_nodes:/home/vedh/workspaces/demo_lawd_ws/install/demo_lawd_description:/opt/ros/humble /usr/bin/cmake --install /home/vedh/workspaces/Ros2_project_turtle_follower/build/t_follower_pkg
+[6.975s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg' for CMake config files
+[6.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('t_follower_pkg', 'cmake_prefix_path')
+[6.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/hook/cmake_prefix_path.ps1'
+[6.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/hook/cmake_prefix_path.dsv'
+[6.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/hook/cmake_prefix_path.sh'
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib'
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/bin'
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib/pkgconfig/t_follower_pkg.pc'
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib/python3.10/site-packages'
+[6.976s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/bin'
+[6.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.ps1'
+[6.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.dsv'
+[6.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.sh'
+[6.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.bash'
+[6.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.zsh'
+[6.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/colcon-core/packages/t_follower_pkg)
+[7.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(t_follower_pkg)
+[7.040s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg' for CMake module files
+[7.041s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg' for CMake config files
+[7.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('t_follower_pkg', 'cmake_prefix_path')
+[7.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/hook/cmake_prefix_path.ps1'
+[7.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/hook/cmake_prefix_path.dsv'
+[7.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/hook/cmake_prefix_path.sh'
+[7.043s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib'
+[7.044s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/bin'
+[7.044s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib/pkgconfig/t_follower_pkg.pc'
+[7.044s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/lib/python3.10/site-packages'
+[7.044s] Level 1:colcon.colcon_core.environment:checking '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/bin'
+[7.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.ps1'
+[7.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.dsv'
+[7.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.sh'
+[7.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.bash'
+[7.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/t_follower_pkg/package.zsh'
+[7.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vedh/workspaces/Ros2_project_turtle_follower/install/t_follower_pkg/share/colcon-core/packages/t_follower_pkg)
+[7.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.049s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.049s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.059s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.075s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/local_setup.ps1'
+[7.076s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vedh/workspaces/Ros2_project_turtle_follower/install/_local_setup_util_ps1.py'
+[7.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/setup.ps1'
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/local_setup.sh'
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vedh/workspaces/Ros2_project_turtle_follower/install/_local_setup_util_sh.py'
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/setup.sh'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/local_setup.bash'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/setup.bash'
+[7.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/local_setup.zsh'
+[7.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vedh/workspaces/Ros2_project_turtle_follower/install/setup.zsh'
