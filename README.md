@@ -4,6 +4,9 @@ There are two ROS 2 packages in this repository. t_follower_pkg includes a launc
 
 The second package is turtkechaser. A main turtle (a.k.a. chaser) that will chase the other turtles, spawning only when the previous one is chased
 
+*These packages have been created and tested on Ubuntu 22.04 with ROS2 Humble.*
+
+
 ## Installation
 
 1. Clone this repository to your ROS 2 workspace:
@@ -40,8 +43,6 @@ Creating a controller node that will control the linear and angular velocity of 
 Creating a spawner node that will spawn turtles only when the previous one is chased.
 Using P controller to guide the chaser to the spawned turtle.
 Creating a launch file to launch all the required nodes in one go!
-
-*This package has been created and tested on Ubuntu 22.04 with ROS2 Humble.*
 
 ## Usage of turtlechaser
 ```
